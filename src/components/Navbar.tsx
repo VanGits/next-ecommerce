@@ -3,6 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper"
 import { Icons } from "./Icons"
 import NavItems from "./NavItems"
 import { buttonVariants } from "./ui/button"
+import Cart from "./Cart"
 
 const Navbar = () => {
 
@@ -32,7 +33,7 @@ const Navbar = () => {
                                     {user ? <span className="h-6 w-px bg-gray-200" aria-hidden='true'/> : null}
                                     {user ? null : <div className="flex lg:ml-6"> <span className="h-6 w-px bg-gray-200" aria-hidden='true'/></div>}
                                     <div className="ml-4 flow-root lg:ml-6">
-                                        {/* <Cart /> */}
+                                        <Cart />
                                     </div>
                                 </div>
                             </div>
